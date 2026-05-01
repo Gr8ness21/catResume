@@ -1,6 +1,6 @@
 function ParallaxImage() {
     return (
-        <div>
+        <div className="paraContainer">
             <h1>Fancy Image Component</h1>
         </div>
     )
