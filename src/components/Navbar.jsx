@@ -1,8 +1,16 @@
 function Navbar() {
     return (
         <nav className="navbar">
-            <h1>Links Coming</h1>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Resume</li>
+                {/* The goal: */}
+                {/* <li><Link to="/resume">Resume</Link></li> */}
+            </ul>
         </nav>
+
     )
 }
 
