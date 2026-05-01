@@ -1,8 +1,13 @@
+import Navbar from "../components/Navbar";
+
 function Resume() {
     return (
-        <div className="resumeContainer">
-            <h1>Resume Component</h1>
-        </div>
+        <>
+            <Navbar />
+            <div className="resumeContainer">
+                <h1>Resume Component</h1>
+            </div>
+        </>
     )
 }
 
