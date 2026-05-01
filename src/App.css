@@ -57,7 +57,13 @@ body {
 .paraContainer {
     height: 100vh;
     width: 100vw;
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    /* Paralax Content! */
+    background-image: url("./images/simbaParaImg.gif");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
     display: flex;
     justify-content: center;
     align-items: center;
